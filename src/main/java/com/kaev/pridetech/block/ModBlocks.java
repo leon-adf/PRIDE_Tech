@@ -19,12 +19,12 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> COLORLESS_COMPRESSED_PARTICLE = registerBlock("colorless_compressed_particle",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
                     .sound(SoundType.SAND)));
 
     public static final DeferredBlock<Block> COLORLESS_COMPRESSED_DUST = registerBlock("colorless_compressed_dust",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .requiresCorrectToolForDrops()
+                    .strength(0.6f)
                     .sound(SoundType.GRAVEL)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block)

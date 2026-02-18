@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pridetech:colorless_compressed_particle"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "pridetech:colorless_sparkling_particle"
+  }
+}
